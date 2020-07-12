@@ -1,0 +1,32 @@
+.lead {
+  max-width: calc(1280px - 148px*2);
+  min-height: max-content;
+  margin: 0 auto;
+  padding: 62px 148px 0;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #2a2c2f;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding: 54px 48px 0;
+    max-width: calc(1024px - 48px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 54px 24px 0;
+    max-width: calc(768px - 24px*2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    padding: 52px 16px 0;
+    max-width: calc(320px - 16px*2);
+  }
+}

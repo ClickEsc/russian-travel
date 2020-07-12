@@ -1,0 +1,19 @@
+.place__website {
+  display: grid;
+  justify-items: flex-start;
+  align-items: flex-end;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.place__website:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
