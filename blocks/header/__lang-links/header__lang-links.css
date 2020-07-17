@@ -1,0 +1,9 @@
+.header__lang-links {
+  padding-bottom: 6px;
+}
+
+@media screen and (max-width: 760px) {}
+.header__lang-links {
+  padding-bottom: 4px;
+  }
+}

@@ -1,32 +1,29 @@
 .header {
-  max-width: calc(1280px - 48px*2);
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
   background-color: #2a2c2f;
   color: #fff;
   margin: 0 auto;
   padding: 46px 48px 0;
   position: relative;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-@media screen and (max-width: 1024px) {
-  .header {
-    max-width: calc(1024px - 48px*2);
-  }
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: calc(768px - 24px*2);
+    max-width: 768px;
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header {
-    max-width: calc(320px - 16px*2);
+    max-width: 425px;
     padding: 30px 16px 0px;
   }
 }

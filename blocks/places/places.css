@@ -1,24 +1,32 @@
 .places {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+  min-height: 320px;
   padding: 92px 148px;
   background-color: #2a2c2f;
   color: #fff;
-  margin: 0 auto;
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
+    max-width: 1024px;
     padding: 92px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
+    max-width: 768px;
     padding: 88px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
+    max-width: 320px;
     padding: 64px 16px;
   }
 }

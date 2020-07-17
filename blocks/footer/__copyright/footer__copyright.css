@@ -6,3 +6,15 @@
   font-weight: normal;
   align-self: flex-end;  
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer__copyright {
+    margin-top: 0px;
+  }
+}
