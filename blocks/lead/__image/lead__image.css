@@ -23,6 +23,7 @@
 @media screen and (max-width: 768px) {
   .lead__image {
     width: 100vw;
+    background-size: cover;
     max-width: 768px;
     max-height: 480px;
     margin-left: -24px;
