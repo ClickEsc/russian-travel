@@ -29,7 +29,7 @@
     margin-top: 16px;
   }
 }
-*/
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     min-width: 60%;

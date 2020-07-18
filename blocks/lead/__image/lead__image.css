@@ -3,8 +3,9 @@
   display: block;
   width: 100%;
   max-width: 984px;
-  max-height: 615px;
-  background-size: cover;
+  height: 62.5%;
+  min-height: 615px;
+  background-position: center top 0px;
   margin: 0;
   padding: 0;
 }
@@ -13,10 +14,19 @@
   .lead__image {
     margin: 0;
     background-position: top 0px left 0px bottom 0px right 0px;
-    width: 100%;
     max-width: 928px;
-    height: auto;
-    max-height: 580px;
+    min-height: 580px;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__image {
+    margin: 0;
+    width: 100vw;
+    max-width: 928px;
+    min-height: 62.5vw;
+    background-size: contain;
   }
 }
 
@@ -25,15 +35,15 @@
     width: 100vw;
     background-size: contain;
     max-width: 768px;
-    max-height: 480px;
-    margin-left: -24px;
+    min-height: 62.5vw;
+    margin-left: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__image {
     max-width: 320px;
-    max-height: 200px;
-    margin-left: -16px;
+    min-height: 200px;
+    margin-left: 0;
   }
 }
